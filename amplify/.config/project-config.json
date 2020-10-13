@@ -3,12 +3,12 @@
   "version": "3.0",
   "frontend": "javascript",
   "javascript": {
-    "framework": "none",
+    "framework": "angular",
     "config": {
       "SourceDir": "src",
-      "DistributionDir": "dist",
+      "DistributionDir": "dist/amplify-app",
       "BuildCommand": "npm run-script build",
-      "StartCommand": "npm run-script start"
+      "StartCommand": "ng serve"
     }
   },
   "providers": [

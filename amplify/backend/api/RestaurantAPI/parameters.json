@@ -1,5 +1,5 @@
 {
-    "AppSyncApiName": "amplifyjsapp",
+    "AppSyncApiName": "RestaurantAPI",
     "DynamoDBBillingMode": "PAY_PER_REQUEST",
     "DynamoDBEnableServerSideEncryption": false
 }
