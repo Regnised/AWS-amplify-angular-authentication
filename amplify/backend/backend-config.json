@@ -1,6 +1,6 @@
 {
   "api": {
-    "amplifyjsapp": {
+    "RestaurantAPI": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -9,7 +9,7 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 7,
-              "description": "todos"
+              "description": "demo"
             }
           },
           "additionalAuthenticationProviders": []
@@ -17,15 +17,8 @@
       }
     }
   },
-  "hosting": {
-    "amplifyhosting": {
-      "service": "amplifyhosting",
-      "providerPlugin": "awscloudformation",
-      "type": "manual"
-    }
-  },
   "auth": {
-    "amplifyjsappe6d4f86b": {
+    "amplifyjsapp2a3f617b": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
